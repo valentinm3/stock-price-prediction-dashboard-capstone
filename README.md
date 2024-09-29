@@ -1,4 +1,4 @@
-# 📊 Stock Price Prediction Dashboard
+# 📊 Stock Price Prediction Dashboard Capstone
 
 ## Description
 The Stock Price Prediction Dashboard is a web application designed to predict and analyze trends in the US stock market. The project utilizes historical stock data from 2020-2024, leveraging machine learning techniques (Random Forest) to forecast future stock prices. The goal of this dashboard is to help users optimize their investment strategies, reduce financial risk, and gain insights into various stocks through interactive visualizations.
