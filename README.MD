@@ -32,30 +32,40 @@ The application offers features such as future price prediction, feature importa
 ## Installation
 
 ### Prerequisites
-Ensure that you have **Python 3.8+** and **Pip** installed on your system.
+Ensure that you have **Python 3.8+** installed on your system.  
+
+**Important Note:** Many of the steps in these instructions require you to type commands into a terminal window. 
+If you use the command terminal on Windows 10, you can highlight the commands from the instructions and copy them with 
+Ctrl-C on your keyboard, then right-click on your terminal window to paste the command directly. Doing this ensures you 
+don’t have a typo and is much faster.
 
 ### Install Python and Pip
 If you do not already have Python and pip installed, follow these steps:
 
-1. **Check if Python is Installed**:
+1. **Open a Command Terminal**:
+   - On **Windows**: Press `Win + R`, type `cmd`, and press `Enter`.
+   - On **Mac/Linux**: Open the **Terminal** application.  
+
+2. **Check if Python is Installed**:
    Open a command terminal and run:
    ```sh
    python --version
    ```
    If Python is not installed, proceed to the next step.  
 
-2. **Download Python:**
+3. **Download Python:**
    - Download and install Python from the [official Python website.](https://www.python.org/downloads/) Make sure to
      check the box for "Add Python to PATH" during installation.
 
-3. **Check if Pip is Installed**:
+4. **Check if Pip is Installed**:
    Open a command terminal and run:
    ```sh
    pip --version
    ```
    If Pip is not installed, proceed to the next step.
-4. **Install Pip (if needed)**
+5. **Install Pip (if needed)**
    - Download the `get-pip.py` script by visiting [get-pip.py](https://bootstrap.pypa.io/get-pip.py) or running:
+   
    ```sh
    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
    ```
@@ -66,23 +76,19 @@ If you do not already have Python and pip installed, follow these steps:
 
 ### Setup
 
-1. **Open a Command Terminal**:
-   - On **Windows**: Press `Win + R`, type `cmd`, and press `Enter`.
-   - On **Mac/Linux**: Open the **Terminal** application.
-
-2. **Clone the repository**:
+1. **Clone the repository**:
     ```sh
     git clone https://github.com/valentinm3/stock-price-prediction-dashboard-capstone.git
     ```
-3. **Navigate to the project directory**:
+2. **Navigate to the project directory**:
     ```sh
     cd stock-price-prediction-dashboard-capstone
     ```
-4. **Create a Virtual Environment**:
+3. **Create a Virtual Environment**:
     ```sh
     python -m venv .venv
     ```
-5. **Activate the Virtual Environment**:
+4. **Activate the Virtual Environment**:
    - On **Windows**:
      ```sh
      .venv\Scripts\activate
@@ -91,11 +97,11 @@ If you do not already have Python and pip installed, follow these steps:
      ```sh
      source .venv/bin/activate
      ```
-6. **Install dependencies**:
+5. **Install dependencies**:
     ```sh
     pip install -r requirements.txt
     ```
-7. **Run the app**:
+6. **Run the app**:
     ```sh
     streamlit run app.py
     ```
