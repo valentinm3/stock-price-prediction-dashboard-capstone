@@ -32,7 +32,7 @@ The application offers features such as future price prediction, feature importa
 ## Installation
 
 ### Prerequisites
-Ensure that you have **Python 3.8+** installed on your system.
+Ensure that you have **Python 3.8+** and **Pip** installed on your system.
 
 ### Install Python and Pip
 If you do not already have Python and pip installed, follow these steps:
