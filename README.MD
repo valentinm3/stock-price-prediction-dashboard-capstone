@@ -35,6 +35,7 @@ The application offers features such as future price prediction, feature importa
 Ensure that you have **Python 3.8+** and **pip** installed on your system.
 
 ### Setup
+
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/valentinm3/stock-price-prediction-dashboard-capstone.git
@@ -43,11 +44,24 @@ Ensure that you have **Python 3.8+** and **pip** installed on your system.
     ```sh
     cd stock-price-prediction-dashboard-capstone
     ```
-3. **Install dependencies**:
+3. **Create a Virtual Environment**:
+    ```sh
+    python -m venv .venv
+    ```
+4. **Activate the Virtual Environment**:
+   - On **Windows**:
+     ```sh
+     .venv\Scripts\activate
+     ```
+   - On **Mac/Linux**:
+     ```sh
+     source .venv/bin/activate
+     ```
+5. **Install dependencies**:
     ```sh
     pip install -r requirements.txt
     ```
-4. **Run the app**:
+6. **Run the app**:
     ```sh
     streamlit run app.py
     ```
