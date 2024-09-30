@@ -36,19 +36,23 @@ Ensure that you have **Python 3.8+** and **pip** installed on your system.
 
 ### Setup
 
-1. **Clone the repository**:
+1. **Open a Command Terminal**:
+   - On **Windows**: Press `Win + R`, type `cmd`, and press `Enter`.
+   - On **Mac/Linux**: Open the **Terminal** application.
+
+2. **Clone the repository**:
     ```sh
     git clone https://github.com/valentinm3/stock-price-prediction-dashboard-capstone.git
     ```
-2. **Navigate to the project directory**:
+3. **Navigate to the project directory**:
     ```sh
     cd stock-price-prediction-dashboard-capstone
     ```
-3. **Create a Virtual Environment**:
+4. **Create a Virtual Environment**:
     ```sh
     python -m venv .venv
     ```
-4. **Activate the Virtual Environment**:
+5. **Activate the Virtual Environment**:
    - On **Windows**:
      ```sh
      .venv\Scripts\activate
@@ -57,11 +61,11 @@ Ensure that you have **Python 3.8+** and **pip** installed on your system.
      ```sh
      source .venv/bin/activate
      ```
-5. **Install dependencies**:
+6. **Install dependencies**:
     ```sh
     pip install -r requirements.txt
     ```
-6. **Run the app**:
+7. **Run the app**:
     ```sh
     streamlit run app.py
     ```
