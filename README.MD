@@ -32,8 +32,8 @@ The application offers features such as future price prediction, feature importa
 ## Installation
 
 ### Prerequisites
-Ensure that you have the following installed on your system:
-**Python 3.8+** [Download Python](https://www.python.org/downloads/) 
+Ensure that you have the following installed on your system:  
+**Python 3.8+** [Download Python](https://www.python.org/downloads/)  
 **pip** [Install pip](https://pip.pypa.io/en/stable/installation/)
 
 ### Setup
