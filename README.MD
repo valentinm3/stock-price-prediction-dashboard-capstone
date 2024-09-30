@@ -32,9 +32,37 @@ The application offers features such as future price prediction, feature importa
 ## Installation
 
 ### Prerequisites
-Ensure that you have the following installed on your system:  
-**Python 3.8+** [Download Python](https://www.python.org/downloads/)  
-**pip** [Install pip](https://pip.pypa.io/en/stable/installation/)
+Ensure that you have **Python 3.8+** installed on your system.
+
+### Install Python and Pip
+If you do not already have Python and pip installed, follow these steps:
+
+1. **Check if Python is Installed**:
+   Open a command terminal and run:
+   ```sh
+   python --version
+   ```
+   If Python is not installed, proceed to the next step.  
+
+2. **Download Python:**
+   - Download and install Python from the [official Python website.](https://www.python.org/downloads/) Make sure to
+     check the box for "Add Python to PATH" during installation.
+
+3. **Check if Pip is Installed**:
+   Open a command terminal and run:
+   ```sh
+   pip --version
+   ```
+   If Pip is not installed, proceed to the next step.
+4. **Install Pip (if needed)**
+   - Download the `get-pip.py` script by visiting [get-pip.py](https://bootstrap.pypa.io/get-pip.py) or running:
+   ```sh
+   curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+   ```
+   - Run the script to install `pip`:
+   ```sh
+   python get-pip.py
+   ```
 
 ### Setup
 
