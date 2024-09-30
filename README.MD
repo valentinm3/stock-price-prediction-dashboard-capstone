@@ -37,11 +37,11 @@ Ensure that you have **Python 3.8+** and **pip** installed on your system.
 ### Setup
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/valentinm3/stock-price-prediction-dashboard.git
+    git clone https://github.com/valentinm3/stock-price-prediction-dashboard-capstone.git
     ```
 2. **Navigate to the project directory**:
     ```sh
-    cd stock-price-analysis
+    cd stock-price-prediction-dashboard-capstone
     ```
 3. **Install dependencies**:
     ```sh
